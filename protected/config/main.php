@@ -7,12 +7,12 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-                    'runtimePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'..',
-	'name'=>'My photogallery',
+        'runtimePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR."runtime",
+        'name'=>'Photo Gallery',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
-
+        'theme'=>'photoGal',
 	// autoloading model and component classes
 	'import'=>array(
 		'application.models.*',
@@ -40,31 +40,28 @@ return array(
 		// uncomment the following to enable URLs in path-format
 		
 		'urlManager'=>array(
-			'urlFormat'=>'path',
-                        'ShowScriptName'=>false,
-			'rules'=>array(
-				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
-				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
-				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
-			),
+                    'urlFormat' => 'path',
+                    'showScriptName' => false,
+                    'rules' => array(               
+                        '<controller:\w+>/<id:\d+>' => '<controller>/view',
+                        '<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
+                        '<controller:\w+>/<action:\w+>' => '<controller>/<action>',
+                    ),
 		),
 		/*
 		'db'=>array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
 		),
-                 * 
-                 */
-            
-		// uncomment the following to use a MySQL database
-		
+                 * */
 		'db'=>array(
 			'connectionString' => 'mysql:host=localhost;dbname=photogallery',
 			'emulatePrepare' => true,
 			'username' => 'root',
 			'password' => '270675',
 			'charset' => 'utf8',
-                        'EnableParamLogging' => true,
-                        'EnableProfiling' => true,
+                	'enableParamLogging' => true,
+                        'enableProfiling' => true,
+             
 		),
 		
 		'errorHandler'=>array(
@@ -76,13 +73,12 @@ return array(
 			'routes'=>array(
 				array(
 					'class'=>'CFileLogRoute',
-					'levels'=>'error, warning',
+					'levels'=>'error, warning, trace',
 				),
-				// uncomment the following to show log messages on web pages
 				
 				array(
 					'class'=>'CWebLogRoute',
-                                        'level'=>'error,warning,info',
+					'levels'=>'error, warning, info',
 				),
 				
 			),
@@ -94,5 +90,6 @@ return array(
 	'params'=>array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@example.com',
-	),
+                'uploads'=>'/uploads',    
+            	),
 );

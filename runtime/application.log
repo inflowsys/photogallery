@@ -1,0 +1,1704 @@
+2014/05/27 14:32:54 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:32:54 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:32:54 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:32:54 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:32:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "protected/config/main.php".' in D:\wamp\www\yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wamp\www\yii\web\CWebApplication.php(141): CWebApplication->runController('protected/confi...')
+#1 D:\wamp\www\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\wamp\www\photogallery\www\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/photogallery/www/protected/config/main.php
+---
+2014/05/27 14:32:54 [trace] [system.CModule] Loading "errorHandler" application component
+2014/05/27 14:32:54 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (45)
+2014/05/27 14:32:54 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\protected\views\layouts\column1.php (2)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (45)
+2014/05/27 14:32:54 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\protected\views\layouts\main.php (35)
+in D:\wamp\www\photogallery\protected\views\layouts\column1.php (6)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (45)
+2014/05/27 14:32:54 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\protected\views\layouts\main.php (35)
+in D:\wamp\www\photogallery\protected\views\layouts\column1.php (6)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (45)
+2014/05/27 14:32:55 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (45)
+2014/05/27 14:33:50 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:33:50 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:33:50 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:33:50 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:33:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www/index.php".' in D:\wamp\www\yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wamp\www\yii\web\CWebApplication.php(141): CWebApplication->runController('www/index.php')
+#1 D:\wamp\www\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\wamp\www\photogallery\www\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/photogallery/www/www/index.php
+---
+2014/05/27 14:33:50 [trace] [system.CModule] Loading "errorHandler" application component
+2014/05/27 14:33:50 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (45)
+2014/05/27 14:33:50 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\protected\views\layouts\column1.php (2)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (45)
+2014/05/27 14:33:50 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\protected\views\layouts\main.php (35)
+in D:\wamp\www\photogallery\protected\views\layouts\column1.php (6)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (45)
+2014/05/27 14:33:50 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\protected\views\layouts\main.php (35)
+in D:\wamp\www\photogallery\protected\views\layouts\column1.php (6)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (45)
+2014/05/27 14:33:50 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (45)
+2014/05/27 14:34:03 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:34:03 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:34:03 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:34:03 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (32)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:34:03 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\protected\views\layouts\column1.php (2)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (32)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:34:03 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\protected\views\layouts\main.php (35)
+in D:\wamp\www\photogallery\protected\views\layouts\column1.php (6)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (32)
+2014/05/27 14:34:03 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\protected\views\layouts\main.php (35)
+in D:\wamp\www\photogallery\protected\views\layouts\column1.php (6)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (32)
+2014/05/27 14:34:03 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\protected\views\layouts\main.php (53)
+in D:\wamp\www\photogallery\protected\views\layouts\column1.php (6)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (32)
+2014/05/27 14:34:03 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (32)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:36:08 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:36:08 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:36:08 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:36:08 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:36:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www/index.php".' in D:\wamp\www\yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wamp\www\yii\web\CWebApplication.php(141): CWebApplication->runController('www/index.php')
+#1 D:\wamp\www\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\wamp\www\photogallery\www\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/photogallery/www/www/index.php
+---
+2014/05/27 14:36:08 [trace] [system.CModule] Loading "errorHandler" application component
+2014/05/27 14:36:08 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (45)
+2014/05/27 14:36:08 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\protected\views\layouts\column1.php (2)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (45)
+2014/05/27 14:36:08 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\protected\views\layouts\main.php (35)
+in D:\wamp\www\photogallery\protected\views\layouts\column1.php (6)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (45)
+2014/05/27 14:36:08 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\protected\views\layouts\main.php (35)
+in D:\wamp\www\photogallery\protected\views\layouts\column1.php (6)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (45)
+2014/05/27 14:36:08 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (45)
+2014/05/27 14:36:53 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:36:53 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:36:53 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:36:53 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:36:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www/index.php".' in D:\wamp\www\yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wamp\www\yii\web\CWebApplication.php(141): CWebApplication->runController('www/index.php')
+#1 D:\wamp\www\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\wamp\www\photogallery\www\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/photogallery/www/www/index.php
+---
+2014/05/27 14:36:53 [trace] [system.CModule] Loading "errorHandler" application component
+2014/05/27 14:37:45 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:45 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:45 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:45 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (32)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:45 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\protected\views\layouts\column1.php (2)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (32)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:45 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\protected\views\layouts\main.php (35)
+in D:\wamp\www\photogallery\protected\views\layouts\column1.php (6)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (32)
+2014/05/27 14:37:45 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\protected\views\layouts\main.php (35)
+in D:\wamp\www\photogallery\protected\views\layouts\column1.php (6)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (32)
+2014/05/27 14:37:45 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\protected\views\layouts\main.php (53)
+in D:\wamp\www\photogallery\protected\views\layouts\column1.php (6)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (32)
+2014/05/27 14:37:45 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (32)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:47 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:47 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:47 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:47 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:47 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\protected\views\layouts\column1.php (2)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:47 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\protected\views\layouts\main.php (35)
+in D:\wamp\www\photogallery\protected\views\layouts\column1.php (6)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:47 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\protected\views\layouts\main.php (35)
+in D:\wamp\www\photogallery\protected\views\layouts\column1.php (6)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:47 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\protected\views\layouts\main.php (43)
+in D:\wamp\www\photogallery\protected\views\layouts\column1.php (6)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:47 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:48 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:48 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:48 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:48 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (72)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:48 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\protected\views\site\contact.php (14)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (72)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:48 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\protected\views\site\contact.php (14)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (72)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:48 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\protected\views\site\contact.php (34)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (72)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:48 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\protected\views\site\contact.php (38)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (72)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:48 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\protected\views\site\contact.php (68)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (72)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:48 [trace] [system.CModule] Loading "assetManager" application component
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (72)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:50 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:50 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:50 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:50 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:51 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:51 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:51 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:51 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (98)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:51 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\protected\views\site\login.php (23)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (98)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:51 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\protected\views\site\login.php (30)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (98)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:51 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\protected\views\site\login.php (52)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (98)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:51 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\protected\views\layouts\main.php (35)
+in D:\wamp\www\photogallery\protected\views\layouts\column1.php (6)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (98)
+2014/05/27 14:37:51 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\protected\views\layouts\main.php (35)
+in D:\wamp\www\photogallery\protected\views\layouts\column1.php (6)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (98)
+2014/05/27 14:37:51 [trace] [system.CModule] Loading "assetManager" application component
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (98)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:52 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:52 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:52 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:52 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (32)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:52 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\protected\views\layouts\column1.php (2)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (32)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:37:52 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\protected\views\layouts\main.php (35)
+in D:\wamp\www\photogallery\protected\views\layouts\column1.php (6)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (32)
+2014/05/27 14:37:52 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\protected\views\layouts\main.php (35)
+in D:\wamp\www\photogallery\protected\views\layouts\column1.php (6)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (32)
+2014/05/27 14:37:52 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\protected\views\layouts\main.php (53)
+in D:\wamp\www\photogallery\protected\views\layouts\column1.php (6)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (32)
+2014/05/27 14:37:52 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (32)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:38:11 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:38:11 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:38:11 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:38:11 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:38:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gii".' in D:\wamp\www\yii\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii\web\CController.php(270): CController->missingAction('gii')
+#1 D:\wamp\www\yii\web\CWebApplication.php(282): CController->run('gii')
+#2 D:\wamp\www\yii\web\CWebApplication.php(141): CWebApplication->runController('site/gii')
+#3 D:\wamp\www\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\wamp\www\photogallery\www\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/photogallery/www/site/gii
+---
+2014/05/27 14:38:11 [trace] [system.CModule] Loading "errorHandler" application component
+2014/05/27 14:38:11 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (45)
+2014/05/27 14:38:11 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\protected\views\layouts\column1.php (2)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (45)
+2014/05/27 14:38:11 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\protected\views\layouts\main.php (35)
+in D:\wamp\www\photogallery\protected\views\layouts\column1.php (6)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (45)
+2014/05/27 14:38:11 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\protected\views\layouts\main.php (35)
+in D:\wamp\www\photogallery\protected\views\layouts\column1.php (6)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (45)
+2014/05/27 14:38:11 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (45)
+2014/05/27 14:38:32 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:38:32 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:38:32 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:38:32 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (32)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:38:32 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\protected\views\layouts\column1.php (2)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (32)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:38:32 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\protected\views\layouts\main.php (35)
+in D:\wamp\www\photogallery\protected\views\layouts\column1.php (6)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (32)
+2014/05/27 14:38:32 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\protected\views\layouts\main.php (35)
+in D:\wamp\www\photogallery\protected\views\layouts\column1.php (6)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (32)
+2014/05/27 14:38:32 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\protected\views\layouts\main.php (53)
+in D:\wamp\www\photogallery\protected\views\layouts\column1.php (6)
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (32)
+2014/05/27 14:38:32 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\protected\controllers\SiteController.php (32)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:43 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:43 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:43 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:43 [trace] [system.base.CModule] Loading "gii" module
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:43 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:43 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:43 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:43 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:43 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:43 [trace] [system.base.CModule] Loading "gii" module
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:43 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:43 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:43 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:43 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:43 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:43 [trace] [system.CModule] Loading "assetManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:44 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:47 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:47 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:47 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:47 [trace] [system.base.CModule] Loading "gii" module
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:47 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:47 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:47 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:47 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:47 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:47 [trace] [system.base.CModule] Loading "gii" module
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:48 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:48 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:48 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:48 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:48 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:48 [trace] [system.CModule] Loading "assetManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:48 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:59 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:59 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:59 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:59 [trace] [system.base.CModule] Loading "gii" module
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:59 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:59 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:59 [trace] [system.CModule] Loading "db" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:59 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:59 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:59 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:59 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_comment`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_comment`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_option`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_option`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:59 [trace] [system.CModule] Loading "assetManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:39:59 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:45 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:45 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:45 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:45 [trace] [system.base.CModule] Loading "gii" module
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:45 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:45 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:45 [trace] [system.CModule] Loading "db" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:45 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_comment`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_comment`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_option`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_option`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:45 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:45 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:45 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:45 [trace] [system.CModule] Loading "assetManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:45 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:52 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:52 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:52 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:52 [trace] [system.base.CModule] Loading "gii" module
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:52 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:52 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:52 [trace] [system.CModule] Loading "db" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:52 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_comment`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_comment`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_option`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_option`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:52 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:52 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:52 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:52 [trace] [system.CModule] Loading "assetManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:52 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:57 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:57 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:57 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:57 [trace] [system.base.CModule] Loading "gii" module
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:57 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:57 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:57 [trace] [system.CModule] Loading "db" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:57 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:57 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:57 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:57 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:57 [trace] [system.CModule] Loading "assetManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:42:57 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:22 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:22 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:22 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:22 [trace] [system.base.CModule] Loading "gii" module
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:22 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:22 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:22 [trace] [system.CModule] Loading "db" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:22 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:22 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:22 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:22 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:22 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:22 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:23 [trace] [system.CModule] Loading "assetManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:23 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:30 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:30 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:30 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:30 [trace] [system.base.CModule] Loading "gii" module
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:30 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:30 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:30 [trace] [system.CModule] Loading "db" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:30 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:30 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:30 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:30 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:30 [trace] [system.CModule] Loading "assetManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:30 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:38 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:38 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:38 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:38 [trace] [system.base.CModule] Loading "gii" module
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:38 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:38 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:38 [trace] [system.CModule] Loading "db" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:38 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:38 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:38 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:38 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_comment`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_comment`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_option`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_option`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:38 [trace] [system.CModule] Loading "assetManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:44:38 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:06 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:06 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:06 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:06 [trace] [system.base.CModule] Loading "gii" module
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:06 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:06 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:06 [trace] [system.CModule] Loading "db" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:06 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:06 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_comment`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:06 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_comment`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:06 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:06 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:06 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:06 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_option`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:06 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_option`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:06 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:06 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:06 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:06 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:06 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:06 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:06 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:06 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:06 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:06 [trace] [system.CModule] Loading "assetManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:06 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:32 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:32 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:32 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:32 [trace] [system.base.CModule] Loading "gii" module
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:32 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:32 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:32 [trace] [system.CModule] Loading "db" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:33 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_comment`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_comment`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_option`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_option`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:33 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:33 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:33 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:33 [trace] [system.CModule] Loading "assetManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:33 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:38 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:38 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:38 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:38 [trace] [system.base.CModule] Loading "gii" module
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:38 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:38 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:38 [trace] [system.CModule] Loading "db" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:38 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:38 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:38 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:38 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_comment`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_comment`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_option`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_option`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:38 [trace] [system.CModule] Loading "assetManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:38 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:49 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:49 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:49 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:49 [trace] [system.base.CModule] Loading "gii" module
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:49 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:49 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:49 [trace] [system.CModule] Loading "db" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:49 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_option`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_option`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_comment`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_comment`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:49 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:49 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:49 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:49 [trace] [system.CModule] Loading "assetManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:49 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:51 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:51 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:51 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:51 [trace] [system.base.CModule] Loading "gii" module
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:51 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:51 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:51 [trace] [system.CModule] Loading "db" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:51 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_option`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_option`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_comment`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_comment`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:51 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:51 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:51 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:51 [trace] [system.CModule] Loading "assetManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:51 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:54 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:54 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:54 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:54 [trace] [system.base.CModule] Loading "gii" module
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:54 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:54 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:54 [trace] [system.CModule] Loading "db" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:54 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:54 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:54 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:54 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_comment`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_comment`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_option`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_option`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:54 [trace] [system.CModule] Loading "assetManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:45:54 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:02 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:02 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:02 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:02 [trace] [system.base.CModule] Loading "gii" module
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:02 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:02 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:02 [trace] [system.CModule] Loading "db" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:02 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_comment`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_comment`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_option`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_option`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:02 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:02 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:02 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:02 [trace] [system.CModule] Loading "assetManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:02 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:04 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:04 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:04 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:04 [trace] [system.base.CModule] Loading "gii" module
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:04 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:04 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:04 [trace] [system.CModule] Loading "db" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:04 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_comment`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_comment`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_option`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_option`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:04 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:04 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:04 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:04 [trace] [system.CModule] Loading "assetManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:04 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:07 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:07 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:07 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:07 [trace] [system.base.CModule] Loading "gii" module
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:07 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:07 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:07 [trace] [system.CModule] Loading "db" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:07 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:07 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:07 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:07 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_comment`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_comment`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_option`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_option`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:07 [trace] [system.CModule] Loading "assetManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:08 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:13 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:13 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:13 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:13 [trace] [system.base.CModule] Loading "gii" module
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:13 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:13 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:13 [trace] [system.CModule] Loading "db" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:13 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_comment`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_comment`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_option`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_option`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:13 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:13 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:13 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:13 [trace] [system.CModule] Loading "assetManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:13 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:15 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:15 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:15 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:15 [trace] [system.base.CModule] Loading "gii" module
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:15 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:15 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:15 [trace] [system.CModule] Loading "db" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:15 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_comment`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_comment`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_option`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_option`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:15 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:15 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:15 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:15 [trace] [system.CModule] Loading "assetManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:15 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:18 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:18 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:18 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:18 [trace] [system.base.CModule] Loading "gii" module
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:18 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:18 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:18 [trace] [system.CModule] Loading "db" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:18 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:18 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:18 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:18 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:18 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:18 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:18 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:18 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_comment`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:18 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_comment`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:18 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_option`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:18 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_option`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:18 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:18 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:18 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:18 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:18 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:18 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:18 [trace] [system.CModule] Loading "assetManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:18 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:25 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:25 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:25 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:25 [trace] [system.base.CModule] Loading "gii" module
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:25 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:25 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:25 [trace] [system.CModule] Loading "db" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:25 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_comment`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_comment`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_option`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_option`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:26 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:26 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:26 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:26 [trace] [system.CModule] Loading "assetManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:26 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:28 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:28 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:28 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:28 [trace] [system.base.CModule] Loading "gii" module
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:28 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:28 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:28 [trace] [system.CModule] Loading "db" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:28 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_album`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_comment`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_comment`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_option`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_option`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:28 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:28 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:28 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:28 [trace] [system.CModule] Loading "assetManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:28 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:31 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:31 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:31 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:31 [trace] [system.base.CModule] Loading "gii" module
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:31 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:31 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:31 [trace] [system.CModule] Loading "db" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:31 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:31 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:31 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:31 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:31 [trace] [system.CModule] Loading "assetManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:46:31 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:30 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:30 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:30 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:30 [trace] [system.base.CModule] Loading "gii" module
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:30 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:30 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:30 [trace] [system.CModule] Loading "db" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:30 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:30 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:30 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:30 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:30 [trace] [system.CModule] Loading "assetManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:30 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:34 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:34 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:34 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:34 [trace] [system.base.CModule] Loading "gii" module
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:34 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:34 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:34 [trace] [system.CModule] Loading "db" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:34 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_photo`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:34 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:34 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:34 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:34 [trace] [system.CModule] Loading "assetManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:34 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:38 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:38 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:38 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:38 [trace] [system.base.CModule] Loading "gii" module
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:38 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:38 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:38 [trace] [system.CModule] Loading "db" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:38 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:38 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:38 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:38 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:38 [trace] [system.CModule] Loading "assetManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:47:38 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:00 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:00 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:00 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:00 [trace] [system.base.CModule] Loading "gii" module
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:00 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:00 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:00 [trace] [system.CModule] Loading "db" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:00 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:00 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:00 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:00 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:00 [trace] [system.CModule] Loading "assetManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:00 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:03 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:03 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:03 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:03 [trace] [system.base.CModule] Loading "gii" module
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:03 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:03 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:03 [trace] [system.CModule] Loading "db" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:03 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:03 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:03 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:03 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:03 [trace] [system.CModule] Loading "assetManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:03 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:05 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:05 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:05 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:05 [trace] [system.base.CModule] Loading "gii" module
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:05 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:05 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:05 [trace] [system.CModule] Loading "db" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:05 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:05 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:05 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:05 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:05 [trace] [system.CModule] Loading "assetManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:05 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:11 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:11 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:11 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:11 [trace] [system.base.CModule] Loading "gii" module
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:11 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:11 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:11 [trace] [system.CModule] Loading "db" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:11 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:11 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:11 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:11 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:11 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:11 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:11 [trace] [system.CModule] Loading "assetManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:11 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:12 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:12 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:12 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:12 [trace] [system.base.CModule] Loading "gii" module
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:12 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:12 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:12 [trace] [system.CModule] Loading "db" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:12 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_tag`
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:12 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:12 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:12 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:12 [trace] [system.CModule] Loading "assetManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/27 14:48:12 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\www\index.php (18)
