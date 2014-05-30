@@ -1702,3 +1702,66 @@ in D:\wamp\www\photogallery\www\index.php (18)
 in D:\wamp\www\photogallery\www\index.php (18)
 2014/05/27 14:48:12 [trace] [system.CModule] Loading "coreMessages" application component
 in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/30 13:14:41 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/30 13:14:41 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/30 13:14:41 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/30 13:14:41 [trace] [system.web.filters.CFilterChain] Running filter PhotoController.filteraccessControl()
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/30 13:14:41 [trace] [system.CModule] Loading "user" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/30 13:14:41 [trace] [system.CModule] Loading "session" application component
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/30 13:14:41 [trace] [system.CModule] Loading "themeManager" application component
+in D:\wamp\www\photogallery\protected\controllers\PhotoController.php (128)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/30 13:14:41 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\wamp\www\photogallery\protected\views\photo\index.php (20)
+in D:\wamp\www\photogallery\protected\controllers\PhotoController.php (128)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/30 13:14:41 [trace] [system.db.ar.CActiveRecord] Photo.count()
+in D:\wamp\www\photogallery\protected\views\photo\index.php (20)
+in D:\wamp\www\photogallery\protected\controllers\PhotoController.php (128)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/30 13:14:41 [trace] [system.CModule] Loading "db" application component
+in D:\wamp\www\photogallery\protected\views\photo\index.php (20)
+in D:\wamp\www\photogallery\protected\controllers\PhotoController.php (128)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/30 13:14:41 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\photogallery\protected\views\photo\index.php (20)
+in D:\wamp\www\photogallery\protected\controllers\PhotoController.php (128)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/30 13:14:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_photo`
+in D:\wamp\www\photogallery\protected\views\photo\index.php (20)
+in D:\wamp\www\photogallery\protected\controllers\PhotoController.php (128)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/30 13:14:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_photo`
+in D:\wamp\www\photogallery\protected\views\photo\index.php (20)
+in D:\wamp\www\photogallery\protected\controllers\PhotoController.php (128)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/30 13:14:41 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `tbl_photo` `t`
+in D:\wamp\www\photogallery\protected\views\photo\index.php (20)
+in D:\wamp\www\photogallery\protected\controllers\PhotoController.php (128)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/30 13:14:41 [trace] [system.db.ar.CActiveRecord] Photo.findAll()
+in D:\wamp\www\photogallery\protected\views\photo\index.php (20)
+in D:\wamp\www\photogallery\protected\controllers\PhotoController.php (128)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/30 13:14:41 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_photo` `t` LIMIT 10
+in D:\wamp\www\photogallery\protected\views\photo\index.php (20)
+in D:\wamp\www\photogallery\protected\controllers\PhotoController.php (128)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/30 13:14:41 [trace] [system.CModule] Loading "assetManager" application component
+in D:\wamp\www\photogallery\protected\views\photo\index.php (20)
+in D:\wamp\www\photogallery\protected\controllers\PhotoController.php (128)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/30 13:14:41 [trace] [system.CModule] Loading "clientScript" application component
+in D:\wamp\www\photogallery\protected\views\photo\index.php (20)
+in D:\wamp\www\photogallery\protected\controllers\PhotoController.php (128)
+in D:\wamp\www\photogallery\www\index.php (18)
+2014/05/30 13:14:41 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\photogallery\protected\views\photo\index.php (20)
+in D:\wamp\www\photogallery\protected\controllers\PhotoController.php (128)
+in D:\wamp\www\photogallery\www\index.php (18)
