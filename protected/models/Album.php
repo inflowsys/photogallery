@@ -18,6 +18,16 @@
 class Album extends CActiveRecord
 {
 	/**
+	 * Returns the static model of the specified AR class.
+	 * @param string $className active record class name.
+	 * @return Album the static model class
+	 */
+	public static function model($className=__CLASS__)
+	{
+		return parent::model($className);
+	}
+
+	/**
 	 * @return string the associated database table name
 	 */
 	public function tableName()
@@ -33,15 +43,33 @@ class Album extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('created_dt', 'required'),
-			array('owner_id, shareable', 'numerical', 'integerOnly'=>true),
+			array('owner_id, shareable, category_id', 'numerical', 'integerOnly'=>true),
 			array('name, tags', 'length', 'max'=>255),
-			// The following rule is used by search().
-			// @todo Please remove those attributes that should not be searched.
+                        array('description','length', 'max'=>1024),
+                        array('description', 'match', 'pattern'=>'/[\w]+/u'), // \-\_\'\ \,\p{L}0-9
+                        // The following rule is used by search().
+			// Please remove those attributes that should not be searched.
 			array('id, name, tags, owner_id, shareable, created_dt', 'safe', 'on'=>'search'),
 		);
 	}
-
+	/**
+	 * This is invoked before the record is saved.
+	 * @return boolean whether the record should be saved.
+	 */
+	protected function beforeSave()
+	{
+            d2l(Yii::app()->user->id,"user id");
+            d2l($this->isNewRecord,"isNew");
+            if(parent::beforeSave()) {
+                if($this->isNewRecord) {
+                    $this->created_dt=new CDbExpression("NOW()");
+                    $this->owner_id=Yii::app()->user->id;
+                }
+                return true;
+            }
+            else
+                return false;	
+        }
 	/**
 	 * @return array relational rules.
 	 */
@@ -54,7 +82,17 @@ class Album extends CActiveRecord
 			'photos' => array(self::HAS_MANY, 'Photo', 'album_id'),
 		);
 	}
-
+        
+        public function scopes()
+        {
+                return array(
+                    'shareable'=>array(
+                        'order'=>'created_dt DESC',
+                        'condition'=>'shareable=1',
+                        )
+                );
+                //$album=Album::$model()->shareable()->findAll();
+        }
 	/**
 	 * @return array customized attribute labels (name=>label)
 	 */
@@ -65,49 +103,31 @@ class Album extends CActiveRecord
 			'name' => 'Name',
 			'tags' => 'Tags',
 			'owner_id' => 'Owner',
-			'shareable' => 'Shareable',
-			'created_dt' => 'Created Dt',
+			'category_id' => 'Catgeory',
+                        'description' => 'Description',
+                        'shareable' => 'Shareable',
+			'created_dt' => 'created Dt',
 		);
 	}
 
 	/**
 	 * Retrieves a list of models based on the current search/filter conditions.
-	 *
-	 * Typical usecase:
-	 * - Initialize the model fields with values from filter form.
-	 * - Execute this method to get CActiveDataProvider instance which will filter
-	 * models according to data in model fields.
-	 * - Pass data provider to CGridView, CListView or any similar widget.
-	 *
-	 * @return CActiveDataProvider the data provider that can return the models
-	 * based on the search/filter conditions.
+	 * @return CActiveDataProvider the data provider that can return the models based on the search/filter conditions.
 	 */
 	public function search()
 	{
-		// @todo Please modify the following code to remove attributes that should not be searched.
+		// Warning: Please modify the following code to remove attributes that
+		// should not be searched.
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('id',$this->id);
 		$criteria->compare('name',$this->name,true);
 		$criteria->compare('tags',$this->tags,true);
-		$criteria->compare('owner_id',$this->owner_id);
-		$criteria->compare('shareable',$this->shareable);
-		$criteria->compare('created_dt',$this->created_dt,true);
-
+	        $criteria->compare('description',$this->description);
+            
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
 	}
-
-	/**
-	 * Returns the static model of the specified AR class.
-	 * Please note that you should have this exact method in all your CActiveRecord descendants!
-	 * @param string $className active record class name.
-	 * @return Album the static model class
-	 */
-	public static function model($className=__CLASS__)
-	{
-		return parent::model($className);
-	}
+                
 }

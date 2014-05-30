@@ -51,8 +51,16 @@ class AlbumController extends Controller
 	 */
 	public function actionView($id)
 	{
-		$this->render('view',array(
+                $photos=$dataProvider=new CActiveDataProvider('Photo', array(
+                    'criteria'=>array(
+                        'condition'=>'album_id=:aid',
+                        'params'=>array(':aid'=>$id)
+                    )
+                ));
+		
+                $this->render('view',array(
 			'model'=>$this->loadModel($id),
+                        'photos'=>$photos,
 		));
 	}
 
@@ -65,13 +73,18 @@ class AlbumController extends Controller
 		$model=new Album;
 
 		// Uncomment the following line if AJAX validation is needed
-		// $this->performAjaxValidation($model);
+		$this->performAjaxValidation($model);
 
 		if(isset($_POST['Album']))
 		{
 			$model->attributes=$_POST['Album'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+			if($model->save())  {
+                            Yii::app()->user->setFlash('saved', "Data saved!");
+                            $this->redirect(array('update','id'=>$model->id));
+                        } else {
+                            Yii::app()->user->setFlash('failure', "Data Not saved!");
+                        }
+                        
 		}
 
 		$this->render('create',array(
@@ -89,13 +102,18 @@ class AlbumController extends Controller
 		$model=$this->loadModel($id);
 
 		// Uncomment the following line if AJAX validation is needed
-		// $this->performAjaxValidation($model);
+		$this->performAjaxValidation($model);
 
 		if(isset($_POST['Album']))
 		{
 			$model->attributes=$_POST['Album'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+			if($model->save())  {
+                            Yii::app()->user->setFlash('saved', "Data saved!");
+                            $this->redirect(array('update','id'=>$model->id));
+                        } else {
+                            Yii::app()->user->setFlash('failure', "Data Not saved!");
+                        }
+                        
 		}
 
 		$this->render('update',array(
@@ -146,9 +164,7 @@ class AlbumController extends Controller
 	/**
 	 * Returns the data model based on the primary key given in the GET variable.
 	 * If the data model is not found, an HTTP exception will be raised.
-	 * @param integer $id the ID of the model to be loaded
-	 * @return Album the loaded model
-	 * @throws CHttpException
+	 * @param integer the ID of the model to be loaded
 	 */
 	public function loadModel($id)
 	{
@@ -160,7 +176,7 @@ class AlbumController extends Controller
 
 	/**
 	 * Performs the AJAX validation.
-	 * @param Album $model the model to be validated
+	 * @param CModel the model to be validated
 	 */
 	protected function performAjaxValidation($model)
 	{

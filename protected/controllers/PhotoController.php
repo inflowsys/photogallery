@@ -122,7 +122,9 @@ class PhotoController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Photo');
+                $this->layout='//layouts/column1';
+                
+            	$dataProvider=new CActiveDataProvider('Photo');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));

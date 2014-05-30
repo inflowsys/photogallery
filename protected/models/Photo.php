@@ -21,6 +21,19 @@
 class Photo extends CActiveRecord
 {
 	/**
+	 * Returns the static model of the specified AR class.
+	 * @param string $className active record class name.
+	 * @return Photo the static model class
+	 */
+
+        private $_uploads;
+
+	public static function model($className=__CLASS__)
+	{
+		return parent::model($className);
+	}
+
+	/**
 	 * @return string the associated database table name
 	 */
 	public function tableName()
@@ -41,7 +54,7 @@ class Photo extends CActiveRecord
 			array('tags', 'length', 'max'=>256),
 			array('caption, alt_text, created_dt, lastupdate_dt', 'safe'),
 			// The following rule is used by search().
-			// @todo Please remove those attributes that should not be searched.
+			// Please remove those attributes that should not be searched.
 			array('id, album_id, filename, caption, alt_text, tags, sort_order, created_dt, lastupdate_dt', 'safe', 'on'=>'search'),
 		);
 	}
@@ -56,6 +69,7 @@ class Photo extends CActiveRecord
 		return array(
 			'comments' => array(self::HAS_MANY, 'Comment', 'photo_id'),
 			'album' => array(self::BELONGS_TO, 'Album', 'album_id'),
+                   	'commentCount' => array(self::STAT , 'Comment', 'photo_id', 'condition'=>'status='.Comment::STATUS_APPROVED), 
 		);
 	}
 
@@ -76,22 +90,26 @@ class Photo extends CActiveRecord
 			'lastupdate_dt' => 'Lastupdate Dt',
 		);
 	}
+        public function getImageParam() {
+            if (empty($this->_uploads))
+                $this->_uploads=Yii::app()->params['uploads']."/";
+            return $this->_uploads;
+        }
+        public function getUrl() {
+            return $this->getImageParam().CHtml::encode($this->filename);
+        }
+        public function getThumb() {
+            return $this->getImageParam()."thumbs/".CHtml::encode($this->filename);
+        }
 
 	/**
 	 * Retrieves a list of models based on the current search/filter conditions.
-	 *
-	 * Typical usecase:
-	 * - Initialize the model fields with values from filter form.
-	 * - Execute this method to get CActiveDataProvider instance which will filter
-	 * models according to data in model fields.
-	 * - Pass data provider to CGridView, CListView or any similar widget.
-	 *
-	 * @return CActiveDataProvider the data provider that can return the models
-	 * based on the search/filter conditions.
+	 * @return CActiveDataProvider the data provider that can return the models based on the search/filter conditions.
 	 */
 	public function search()
 	{
-		// @todo Please modify the following code to remove attributes that should not be searched.
+		// Warning: Please modify the following code to remove attributes that
+		// should not be searched.
 
 		$criteria=new CDbCriteria;
 
@@ -109,15 +127,5 @@ class Photo extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
-
-	/**
-	 * Returns the static model of the specified AR class.
-	 * Please note that you should have this exact method in all your CActiveRecord descendants!
-	 * @param string $className active record class name.
-	 * @return Photo the static model class
-	 */
-	public static function model($className=__CLASS__)
-	{
-		return parent::model($className);
-	}
+        
 }

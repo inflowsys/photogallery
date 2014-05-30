@@ -18,7 +18,7 @@ $('.search-button').click(function(){
 	return false;
 });
 $('.search-form form').submit(function(){
-	$('#album-grid').yiiGridView('update', {
+	$.fn.yiiGridView.update('album-grid', {
 		data: $(this).serialize()
 	});
 	return false;
