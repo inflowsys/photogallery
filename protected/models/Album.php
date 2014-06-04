@@ -61,9 +61,9 @@ class Album extends CActiveRecord
             d2l(Yii::app()->user->id,"user id");
             d2l($this->isNewRecord,"isNew");
             if(parent::beforeSave()) {
-                if($this->isNewRecord) {
-                    $this->created_dt=new CDbExpression("NOW()");
-                    $this->owner_id=Yii::app()->user->id;
+            if($this->isNewRecord) {
+                    $this->created_dt=date("Y-m-d h:i:s", time());;
+                    $this->owner_id=2;
                 }
                 return true;
             }

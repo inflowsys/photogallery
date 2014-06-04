@@ -6,7 +6,7 @@
 
 <div class="view">
 
-    <h2><?php echo CHtml::encode($data->name);?></h2>
+    <h2><?php  echo CHtml::encode($data->name);  ?></h2>
     <p><?php /**CB 8.3 if ($data->categories) echo "(".CHtml::encode($data->categories->option_value).")";**/ ?></p>
     <?php 
     if ($data->photos)  

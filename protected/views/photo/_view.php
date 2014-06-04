@@ -8,9 +8,9 @@
     <div class="imgWrap">
         <?php
             echo CHtml::link(
-                    CHtml::image("uploads/thumbs/".$data->filename,                           
+                    CHtml::image("/photogallery/www/uploads/thumbs/".$data->filename,                           
                     CHtml::encode($data->alt_text),array()),
-                    "uploads/".$data->filename,
+                    "/photogallery/www/uploads/".$data->filename,
                     array('rel'=>'colorBox','title'=>CHtml::encode($data->alt_text))
                     );
     ?>
